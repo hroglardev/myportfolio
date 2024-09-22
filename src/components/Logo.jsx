@@ -7,7 +7,7 @@ import { ModeContext } from '../context/ModeContext';
 const Logo = ({ size }) => {
   const { mode } = useContext(ModeContext);
   return (
-    <NavLink to='#' className='-m-1.5 p-1.5'>
+    <NavLink to='#home' className='-m-1.5 p-1.5'>
       <span className='sr-only'>Lucas Cubile - Fullstack Developer</span>
       <img
         width={96}

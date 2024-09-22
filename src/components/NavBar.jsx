@@ -8,7 +8,7 @@ import { ModeContext } from '../context/ModeContext';
 const NavItems = [
   {
     name: 'Home',
-    href: '#',
+    href: '#home',
     SPANISH: 'Home',
     ENGLISH: 'Home',
     ITALIAN: 'Home'
@@ -47,7 +47,7 @@ const NavBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { mode } = useContext(ModeContext);
   return (
-    <header className={`${mode === 'DARK' && 'bg-black'}`}>
+    <header className={`${mode === 'DARK' && 'bg-black'}`} id='home'>
       <nav
         aria-label='Global'
         className='relative mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8'>

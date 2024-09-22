@@ -13,7 +13,7 @@ const navigation = {
   navigate: [
     {
       name: 'Home',
-      href: '/#',
+      href: '#home',
       ENGLISH: 'Home',
       SPANISH: 'Inicio',
       ITALIAN: 'Home'
