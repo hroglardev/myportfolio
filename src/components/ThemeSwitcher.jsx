@@ -16,7 +16,7 @@ const ThemeSwitcher = () => {
       whileHover={{ scale: 1.2, rotate: [0, 20, -20, 0] }}
       duration={{ duration: 0.5 }}
       onClick={switchMode}
-      className={`fixed bottom-10 left-5 p-3 rounded-full ${
+      className={`fixed bottom-8 left-5 p-3 rounded-full ${
         mode === 'DARK' ? 'bg-midGray' : 'bg-lightRed'
       }`}>
       <LightBulbIcon className='text-white h-6 w-6' />

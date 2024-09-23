@@ -90,7 +90,7 @@ const Skills = () => {
                   <div className='flex justify-evenly flex-wrap gap-2'>
                     {area.tools.map((tool) => {
                       return (
-                        <div
+                        <figure
                           key={tool.name}
                           className='flex flex-col items-center'>
                           <img
@@ -106,7 +106,7 @@ const Skills = () => {
                             }`}
                           />
                           <figcaption>{tool.caption}</figcaption>
-                        </div>
+                        </figure>
                       );
                     })}
                   </div>

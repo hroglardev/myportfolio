@@ -182,7 +182,7 @@ const Footer = () => {
                   {language === 'SPANISH' && 'Contáctame'}
                   {language === 'ITALIAN' && 'Contattami'}
                 </h3>
-                <div>
+                <address>
                   <ul role='list' className='mt-6 space-y-4'>
                     {navigation.contact.map((item) => (
                       <NavItem
@@ -195,7 +195,7 @@ const Footer = () => {
                       />
                     ))}
                   </ul>
-                </div>
+                </address>
               </div>
             </div>
           </div>
@@ -205,7 +205,7 @@ const Footer = () => {
             className={`text-xs leading-5 ${
               mode === 'DARK' ? 'text-gray-200' : 'text-gray-900'
             }`}>
-            &copy; 2020 Lucas Cubile.{' '}
+            &copy; 2024 Lucas Cubile.{' '}
             {language === 'ENGLISH'
               ? 'All rights reserved.'
               : language === 'SPANISH'
