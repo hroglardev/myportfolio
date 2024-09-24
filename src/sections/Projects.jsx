@@ -18,11 +18,11 @@ const PROJECTS = [
     src: Glamour,
     description: {
       ENGLISH:
-        'Fullstack marketplace application integrating payment gateway, notifications, authorization and authentication as well as admin panel',
+        'Fullstack marketplace application integrating payment gateway, notifications, authorization and authentication as well as admin panel.',
       SPANISH:
-        'Aplicación marketplace fullstack completa que integra pasarela de pago, notificaciones, autorización y autenticación, así como panel de administración',
+        'Aplicación marketplace fullstack completa que integra pasarela de pago, notificaciones, autorización y autenticación, así como panel de administración.',
       ITALIAN:
-        'Applicazione di mercato fullstack che integra gateway di pagamento, notifiche, autorizzazione e autenticazione, nonché pannello di amministrazione'
+        'Applicazione di mercato fullstack che integra gateway di pagamento, notifiche, autorizzazione e autenticazione, nonché pannello di amministrazione.'
     },
     category: 'advanced',
     repo: 'https://github.com/hroglardev/Glamour-Glow',
@@ -33,11 +33,11 @@ const PROJECTS = [
     src: EmigrandoHoy,
     description: {
       ENGLISH:
-        'Personal site for an agency which provides services regarding migration outside of LATAM, foreign citizenships and proper documentation',
+        'Personal site for an agency which provides services regarding migration outside of LATAM, foreign citizenships and proper documentation.',
       SPANISH:
-        'Sitio personal para una agencia que ofrece servicios relacionados con la migración fuera de LATAM, ciudadanías extranjeras y documentación apropiada',
+        'Sitio personal para una agencia que ofrece servicios relacionados con la migración fuera de LATAM, ciudadanías extranjeras y documentación apropiada.',
       ITALIAN:
-        "Sito personale per un'agenzia che offre servizi relativi alla migrazione fuori da LATAM, cittadinanze straniere e documentazione appropriata"
+        "Sito personale per un'agenzia che offre servizi relativi alla migrazione fuori da LATAM, cittadinanze straniere e documentazione appropriata."
     },
     category: 'advanced',
     repo: 'https://github.com/hroglardev/Emigrando-Hoy',
@@ -93,11 +93,11 @@ const PROJECTS = [
     src: Recycle,
     description: {
       ENGLISH:
-        'University gamified project developed to increase consciousness on recycling properly oriented to children',
+        'University gamified project developed to increase consciousness on recycling properly oriented to children.',
       SPANISH:
-        'Proyecto gamificado universitario desarrollado para aumentar la conciencia sobre el reciclaje adecuado orientado a los niños',
+        'Proyecto gamificado universitario desarrollado para aumentar la conciencia sobre el reciclaje adecuado orientado a los niños.',
       ITALIAN:
-        'Progetto gamificato universitario sviluppato per aumentare la consapevolezza sul riciclaggio adeguato orientato ai bambini'
+        'Progetto gamificato universitario sviluppato per aumentare la consapevolezza sul riciclaggio adeguato orientato ai bambini.'
     },
     category: 'advanced',
     repo: 'https://github.com/hroglardev/Recycle-World',
@@ -108,11 +108,11 @@ const PROJECTS = [
     src: Todo,
     description: {
       ENGLISH:
-        'Classic project for task management. Separate tasks by project, set due dates, delete or mark tasks as complete',
+        'Classic project for task management. Separate tasks by project, set due dates, delete or mark tasks as complete.',
       SPANISH:
-        'Proyecto clásico para la gestión de tareas. Separar tareas por proyecto, establecer fechas de vencimiento, eliminar o marcar tareas como completas',
+        'Proyecto clásico para la gestión de tareas. Separar tareas por proyecto, establecer fechas de vencimiento, eliminar o marcar tareas como completas.',
       ITALIAN:
-        'Progetto classico per la gestione delle attività. Separare le attività per progetto, impostare le date di scadenza, eliminare o contrassegnare le attività come completate'
+        'Progetto classico per la gestione delle attività. Separare le attività per progetto, impostare le date di scadenza, eliminare o contrassegnare le attività come completate.'
     },
     category: 'learner',
     repo: 'https://github.com/hroglardev/To-do-list-js',

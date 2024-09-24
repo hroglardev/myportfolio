@@ -182,12 +182,12 @@ const Footer = () => {
                   {language === 'SPANISH' && 'Contáctame'}
                   {language === 'ITALIAN' && 'Contattami'}
                 </h3>
-                <address className='non-italic'>
+                <div aria-label='contact' className='non-italic'>
                   <ul role='list' className='mt-6 space-y-4'>
                     {navigation.contact.map((item) => (
                       <NavItem
                         key={item.name}
-                        className={`text-sm leading-6  ${
+                        className={`text-sm leading-6 non-italic  ${
                           mode === 'DARK' ? 'text-gray-300' : 'text-gray-900'
                         } `}
                         href={item.href}
@@ -195,7 +195,7 @@ const Footer = () => {
                       />
                     ))}
                   </ul>
-                </address>
+                </div>
               </div>
             </div>
           </div>
