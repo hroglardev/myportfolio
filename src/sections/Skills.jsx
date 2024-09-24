@@ -53,7 +53,7 @@ const Skills = () => {
   return (
     <motion.div className={`flex w-full justify-center px-6`}>
       <Section role={'region'} ariaLabel={'Skills section'} id='skills'>
-        <div className=' w-full'>
+        <div className=' w-full '>
           <h2
             className={`mt-48 mb-10 text-4xl font-bold tracking-tight ${
               mode === 'DARK' ? 'text-gray-200' : 'text-lightRed'
@@ -63,7 +63,7 @@ const Skills = () => {
               'Herramientas que uso para crear soluciones'}
             {language === 'ITALIAN' && 'Strumenti che uso per creare soluzioni'}
           </h2>
-          <div className='flex flex-col  items-center md:flex-row md:items-baseline gap-2 md:gap-10 w-full'>
+          <div className='flex flex-col items-center md:flex-row md:items-stretch md:justify-center gap-2 md:gap-5 w-full'>
             {SKILLS.map((area) => {
               return (
                 <motion.div
@@ -76,7 +76,7 @@ const Skills = () => {
                     hidden: { opacity: 0, y: 100 }
                   }}
                   key={area.category}
-                  className={`border rounded-3xl pb-8 px-4  w-full md:flex md:flex-grow flex-col ${
+                  className={`border rounded-3xl pb-8 px-4  w-full flex-col ${
                     mode === 'DARK' ? 'bg-midGray' : 'bg-lightGray'
                   }`}>
                   <div className='mb-5'>
@@ -87,7 +87,7 @@ const Skills = () => {
                       {area.category}
                     </h3>
                   </div>
-                  <div className='flex justify-evenly flex-wrap gap-2'>
+                  <div className='flex justify-evenly flex-wrap  gap-2'>
                     {area.tools.map((tool) => {
                       return (
                         <figure
