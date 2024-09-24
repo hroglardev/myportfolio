@@ -13,7 +13,7 @@ export default {
         midGray: '#1D1D1F'
       },
       fontFamily: {
-        sans: ['Linberg', 'open-sans', 'Roboto', 'sans-serif']
+        sans: ['Poppins', 'Linberg', 'open-sans', 'Roboto', 'sans-serif']
       },
       screens: {
         xsm: '480px'

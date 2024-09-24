@@ -33,11 +33,11 @@ const PROJECTS = [
     src: EmigrandoHoy,
     description: {
       ENGLISH:
-        'Personal site for an agency which provides services regarding migration outside of LATAM and foreign citizenships',
+        'Personal site for an agency which provides services regarding migration outside of LATAM, foreign citizenships and proper documentation',
       SPANISH:
-        'Sitio personal para una agencia que ofrece servicios relacionados con la migración fuera de LATAM y ciudadanías extranjeras',
+        'Sitio personal para una agencia que ofrece servicios relacionados con la migración fuera de LATAM, ciudadanías extranjeras y documentación apropiada',
       ITALIAN:
-        "Sito personale per un'agenzia che offre servizi relativi alla migrazione fuori da LATAM e cittadinanze straniere"
+        "Sito personale per un'agenzia che offre servizi relativi alla migrazione fuori da LATAM, cittadinanze straniere e documentazione appropriata"
     },
     category: 'advanced',
     repo: 'https://github.com/hroglardev/Emigrando-Hoy',
@@ -136,9 +136,9 @@ const Projects = () => {
     return pages;
   }, []);
   return (
-    <div className={`flex justify-center px-6 `}>
+    <div className={`flex justify-center px-6 items-center`}>
       <Section role={'region'} ariaLabel={'Projects section'} id='projects'>
-        <div className='flex flex-col'>
+        <div className='flex flex-col items-center'>
           <h2
             className={`mb-10 mt-10 text-4xl font-bold tracking-tight text-center relative ${
               mode === 'DARK' ? 'text-gray-200' : 'text-lightRed'
@@ -148,7 +148,7 @@ const Projects = () => {
             {language === 'ITALIAN' && 'I Miei Progetti'}
           </h2>
 
-          <div className='flex flex-col lg:flex-row lg:flex-wrap justify-center gap-8 items-center'>
+          <div className='flex flex-col lg:flex-row lg:flex-wrap justify-center gap-8 items-stretch'>
             {PROJECTS.slice(page * limit, (page + 1) * limit).map(
               (project, index) => {
                 return (
