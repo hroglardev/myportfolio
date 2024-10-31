@@ -26,7 +26,7 @@ const PROJECTS = [
     },
     category: 'advanced',
     repo: 'https://github.com/hroglardev/Glamour-Glow',
-    live: 'https://glamour-glow-app.vercel.app/'
+    live: 'https://glamour-glow.vercel.app/'
   },
   {
     title: 'Emigrando Hoy',
